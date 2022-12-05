@@ -1,4 +1,4 @@
 public class Duck
 {
-    public string Nickname;
+    public string nickname;
 }
