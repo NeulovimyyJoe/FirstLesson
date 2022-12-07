@@ -9,22 +9,14 @@ public class Program
         Console.WriteLine("Now this is Duck Park !!!");
         _ducks.Add(new Duck()
         {
-            nickname = "Bebe",
-            weight = 720
+            nickname = "Bebe"
         });
 
         _ducks.Add(new Duck()
         {
-            nickname = "Sergo",
-            weight = 900
+            nickname = "Sergo"
         });
 
-        foreach(var duck in _ducks)
-            {
-                Console.WriteLine($"Name: {duck.nickname}");
-                Console.WriteLine($"Weight: {duck.weight}");
-            }
-           
-            Console.WriteLine("Count: {0}", _ducks.Count);
+        Console.WriteLine("Count: {0}", _ducks.Count);
     }
 }
