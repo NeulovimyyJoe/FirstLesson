@@ -42,11 +42,11 @@ public class Program
             nickname = "Natasha"
         });
 
-        foreach (var ducks in _ducks)
+        foreach (var duck in _ducks)
         {
-            Console.WriteLine("  " + ducks.nickname);
+            Console.Write(duck.nickname + ", ");
         }
 
-        Console.WriteLine("Count of ducks: {0}", _ducks.Count);
+        Console.WriteLine("\nCount of ducks: {0}", _ducks.Count);
     }
 }
