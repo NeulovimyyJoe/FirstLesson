@@ -11,6 +11,8 @@ public class Program
         {
             Console.Write(duck.nickname + ", ");
         }
+
+        Сonsole.WriteLine("\nCount of ducks: {0}", _ducks.Count);
     }
    
     public static void DuckGeneration()
@@ -52,7 +54,6 @@ public class Program
     
     public static void Main(string[] args) 
     {
-        SuggestMeADuck();
             
         Console.WriteLine("Now this is Duck Park !!! \r\nLet's take a look at our beautiful ducks:");
 
@@ -60,24 +61,28 @@ public class Program
 
         DuckEnterprise();
 
-        Console.WriteLine("\nCount of ducks: {0}", _ducks.Count);
+        SuggestMeADuck();
+
     }
     
     public static void SuggestMeADuck()
     {
         Console.WriteLine("Would you like to add a duck? Write in the console Yes or No please.");
-            string answer1;
-            answer1 = Console.ReadLine();
-            switch (answer1)
+            
+        string answer1;
+            
+        answer1 = Console.ReadLine();
+           
+        switch (answer1)
             {
-                case "Yes": Console.WriteLine("Give it a name");
-                    _ducks.Add(new Duck()
-                    {
-                        nickname = Console.ReadLine()
-                    });
-                    break;
-                case "No": Console.WriteLine("Welcome dear Guest!");
-                    break;
-                    default: goto case "No";
+            case "Yes": Console.WriteLine("Give it a name");
+                _ducks.Add(new Duck()
+                {
+                    nickname = Console.ReadLine()
+                });
+                break;
+            case "No": Console.WriteLine("Welcome dear Guest!");
+                break;
+                default: goto case "No";
     }       }   
 }
