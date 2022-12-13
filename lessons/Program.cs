@@ -74,15 +74,19 @@ public class Program
         answer1 = Console.ReadLine();
            
         switch (answer1)
-            {
+        {
             case "Yes": Console.WriteLine("Give it a name");
+                
                 _ducks.Add(new Duck()
                 {
                     nickname = Console.ReadLine()
                 });
                 break;
+            
             case "No": Console.WriteLine("Welcome dear Guest!");
                 break;
-                default: goto case "No";
-    }       }   
+                
+            default: goto case "No";
+        }
+    }      
 }
