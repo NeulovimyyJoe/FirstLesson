@@ -8,7 +8,8 @@ public static class CommandBuilder
         {
             ["add"] = new AddDuckCommand(),
             ["display"] = new DisplayCommand(),
-            ["clear_display"] = new ClearDisplayCommand()
+            ["clear_display"] = new ClearDisplayCommand(),
+            ["feed"] = new FeedCommand()
         };
         return result;
     }
