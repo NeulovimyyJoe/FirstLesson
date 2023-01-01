@@ -3,7 +3,7 @@
 public class Program
 {
     public static List<Duck> ducks = new List<Duck>();
-    private static Dictionary<string, ICommand> commands;
+    public static Dictionary<string, ICommand> commands;
 
     public static void DuckGeneration()
     {
@@ -44,7 +44,7 @@ public class Program
 
     public static void HandleInput()
     {
-        Console.WriteLine("Enter command line...");
+        Console.WriteLine("Enter command line... (\"help\" for example)");
         string input = Console.ReadLine();
         string[] words = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
         string commandWord = words[0].ToLower();

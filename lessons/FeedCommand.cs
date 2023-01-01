@@ -6,4 +6,9 @@ public class FeedCommand : ICommand
     {
         Console.WriteLine("You feed successfully!");
     }
+
+    public string GetHelpMessage()
+    {
+        return "Let you feed your duck";
+    }
 }

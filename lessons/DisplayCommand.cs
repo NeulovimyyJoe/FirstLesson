@@ -15,4 +15,9 @@ public class DisplayCommand : ICommand
         Console.WriteLine(displayLine);
         Console.WriteLine("\nCount of ducks: {0}", Program.ducks.Count);
     }
+
+    public string GetHelpMessage()
+    {
+        return "Display all ducks";
+    }
 }

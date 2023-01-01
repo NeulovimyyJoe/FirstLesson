@@ -6,4 +6,9 @@ public class ClearDisplayCommand : ICommand
     {
         Console.Clear();
     }
+
+    public string GetHelpMessage()
+    {
+        return "Clear display";
+    }
 }

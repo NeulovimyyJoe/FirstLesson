@@ -17,4 +17,9 @@ public class AddDuckCommand : ICommand
             });
         }
     }
+
+    public string GetHelpMessage()
+    {
+        return "Adding your own duck";
+    }
 }

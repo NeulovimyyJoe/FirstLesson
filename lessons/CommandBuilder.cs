@@ -9,7 +9,10 @@ public static class CommandBuilder
             ["add"] = new AddDuckCommand(),
             ["display"] = new DisplayCommand(),
             ["clear_display"] = new ClearDisplayCommand(),
-            ["feed"] = new FeedCommand()
+            ["feed"] = new FeedCommand(),
+            ["squeeze"] = new SqueezeTheDuck(),
+            ["help"] = new HelpCommand()
+            
         };
         return result;
     }
