@@ -7,7 +7,7 @@ public class DisplayCommand : ICommand
         string displayLine = string.Empty;
         foreach (var duck in Program.ducks)
         {
-            displayLine += duck.nickname + ", ";
+            displayLine += duck.displayName + ", ";
         }
 
         displayLine = displayLine.Trim(new[] { ',', ' ' });

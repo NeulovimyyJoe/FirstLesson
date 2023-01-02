@@ -30,39 +30,20 @@ public class Program
 
     public static void DuckGeneration()
     {
-         ducks.Add(new Duck()
-        {
-            nickname = "Bebe"
-        });
+        ducks.Add(new Duck("Bebe"));
 
-        ducks.Add(new Duck()
-        {
-            nickname = "Sergo"
-        });
+        ducks.Add(new Duck("Sergo"));
 
-         ducks.Add(new Duck()
-        {
-            nickname = "Himdan ibn Mohammed II"
-        });
+        ducks.Add(new Duck("Himdan ibn Mohammed II"));
 
-        ducks.Add(new Duck()
-        {
-            nickname = "Masha"
-        });
-        ducks.Add(new Duck()
-        {
-            nickname = "Spartacus"
-        });
+        ducks.Add(new Duck("Masha"));
 
-        ducks.Add(new Duck()
-        {
-            nickname = "Vova"
-        });
+        ducks.Add(new Duck("Spartacus"));
 
-        ducks.Add(new Duck()
-        {
-            nickname = "Natasha"
-        });
+        ducks.Add(new Duck("Vladimir Miroshnikov"));
+
+        ducks.Add(new Duck("Natalya Miroshnikova"));
+        
     }
 
     public static void HandleInput()

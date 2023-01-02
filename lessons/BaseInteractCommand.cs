@@ -2,45 +2,12 @@
 
 public abstract class BaseInteractCommand : ICommand
 {
-    public abstract string GetSuccessResult(string[] arguments);
-
-    public void Execute(string[] arguments)
+    public List<Duck> GetAffectedDucks(string[] arguments)
     {
-        //КАК НЕ НАДО ДЕЛАТЬ
-        //
-        // if (arguments.Length > 1)
-        // {
-        //     string duckName = arguments[1];
-        //     List<Duck> affectedDucks = new List<Duck>();
-        //     foreach (var duck in Program.ducks)
-        //     {
-        //         if (string.Equals(duckName, duck.nickname))
-        //         {
-        //             affectedDucks.Add(duck);
-        //         }
-        //     }
-        //
-        //     if (affectedDucks.Count > 0)
-        //     {
-        //         foreach (var affectedDuck in affectedDucks)
-        //         {
-        //             Console.WriteLine(GetSuccessResult);
-        //         }
-        //     }
-        //     else
-        //     {
-        //         Console.WriteLine("NET UTOK");
-        //     }
-        // }
-        // else
-        // {
-        //     Console.WriteLine("HUI");
-        // }
-
         if (arguments.Length < 2)
         {
             Console.WriteLine("There is not enough arguments");
-            return;
+            return null;
         }
         
         string duckName = arguments[1];
@@ -56,11 +23,13 @@ public abstract class BaseInteractCommand : ICommand
         if (affectedDucks.Count == 0)
         {
             Console.WriteLine($"We have no duck with this name - {duckName}");
-            return;
+            return null;
         }
-        
-        Console.WriteLine(GetSuccessResult(arguments));
+
+        return affectedDucks;
     }
+
+    public abstract void Execute(string[] arguments);
 
     public abstract string GetHelpMessage();
 }
