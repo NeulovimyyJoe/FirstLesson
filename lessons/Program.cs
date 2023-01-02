@@ -1,9 +1,32 @@
 ﻿using lessons;
+using Newtonsoft.Json;
 
 public class Program
 {
+    private static string savePath = "save.json";
+    
     public static List<Duck> ducks = new List<Duck>();
     public static Dictionary<string, ICommand> commands;
+
+    public static void Save()
+    {
+        File.WriteAllText(savePath, JsonConvert.SerializeObject(ducks));
+    }
+
+    private static bool TryInitFromSave()
+    {
+        if (File.Exists(savePath))
+        {
+            string json = File.ReadAllText(savePath);
+            var result = JsonConvert.DeserializeObject<List<Duck>>(json);
+            if (result != null)
+            {
+                ducks = result;
+                return true;
+            }
+        }
+        return false;
+    }
 
     public static void DuckGeneration()
     {
@@ -63,10 +86,14 @@ public class Program
     {
         commands = CommandBuilder.GetDefaultCommands();
 
-        Console.WriteLine("Now this is Duck Park !!! \r\nLet's take a look at our beautiful ducks:\n");
+        if (TryInitFromSave() == false)
+        {
+            DuckGeneration();
+            Save();
+        }
 
-        DuckGeneration();
-
+        Console.WriteLine("Now this is Duck Park !!! \r\nLet's take a look at our beautiful ducks:");
+        
         while (true)
         {
             HandleInput();

@@ -15,6 +15,7 @@ public class AddDuckCommand : ICommand
             {
                 nickname = Console.ReadLine()
             });
+            Program.Save();
         }
     }
 
