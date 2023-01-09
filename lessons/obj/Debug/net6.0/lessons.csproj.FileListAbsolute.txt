@@ -1,0 +1,17 @@
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\bin\Debug\net6.0\lessons.exe
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\bin\Debug\net6.0\lessons.deps.json
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\bin\Debug\net6.0\lessons.runtimeconfig.json
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\bin\Debug\net6.0\lessons.dll
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\bin\Debug\net6.0\lessons.pdb
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\lessons.csproj.AssemblyReference.cache
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\lessons.GeneratedMSBuildEditorConfig.editorconfig
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\lessons.AssemblyInfoInputs.cache
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\lessons.AssemblyInfo.cs
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\lessons.csproj.CoreCompileInputs.cache
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\lessons.dll
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\refint\lessons.dll
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\lessons.pdb
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\lessons.genruntimeconfig.cache
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\ref\lessons.dll
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\PET_PROJECTS\FirstLesson\FirstLesson\lessons\obj\Debug\net6.0\lessons.csproj.CopyComplete

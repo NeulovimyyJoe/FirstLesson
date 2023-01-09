@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "d4rlW3/5mg7/6mJkE5V9vlKlvNZVXDhtaE7FYGr8eEzLSb71QAz7aLPBH+ceOMm4/LMpyRR89U6+lgpTgMpWUQ==",
+  "success": true,
+  "projectFilePath": "E:\\PET_PROJECTS\\FirstLesson\\FirstLesson\\lessons\\lessons.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Korvin\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\Korvin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\Korvin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\Korvin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\Korvin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
